@@ -1,4 +1,4 @@
 # Calculator
-Calculator madw with HTML+CSS and JS.
+Calculator made with HTML+CSS and JS.
 
 Demo: https://muneebgulzar.github.io/calculator/
