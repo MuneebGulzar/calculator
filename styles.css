@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -13,15 +15,17 @@ body{
     font-family: 'Indie Flower', cursive;
     background-color: #000;
 }
-table{
+
+table {
     background-color: #000;
     width: 90vw;
     height: 90vh;
     border-radius: 1rem;
     padding: 1.5rem;
-    box-shadow: 0 3px 14px 7px #fff;
+    box-shadow: 0 5px 10px 10px #fff;
 }
-input[type="text"]{
+
+input[type="text"] {
     width: 100%;
     height: 10rem;
     padding: 0.5rem;
@@ -33,35 +37,44 @@ input[type="text"]{
     border: 3px solid #000;
     border-radius: 1rem;
 }
-input[type="button"]{
+
+input[type="button"] {
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #000;
     color: #fff;
     font-family: 'Indie Flower', cursive;
     font-size: 2rem;
-    box-shadow: 0 3px 14px 7px #fff;
+    border: 0.3rem solid #e3e4e5;
     border-radius: 1rem;
 }
-#clear, #delete{
+
+input[type="button"]:hover {
+    /* box-shadow: 0 3px 14px 7px #fff; */
+    border-left: none;
+    border-top: none;
+}
+
+#clear, #delete {
     color: red;
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
-    table{
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    table {
         width: 80vw;
         height: 80vh;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1279px){
-    table{
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    table {
         width: 50vw;
         height: 50vh;
     }
 }
-@media screen and (min-width: 1280px){
-    table{
+
+@media screen and (min-width: 1280px) {
+    table {
         width: 30vw;
     }
 }
