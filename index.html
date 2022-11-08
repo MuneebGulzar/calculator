@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,12 @@
     <link rel="stylesheet" href="styles.css">
     <title>Calculator</title>
 </head>
+
 <body>
     <table>
         <tbody>
             <tr class="input">
-                <td colspan="4"><input type="text" pattern="[0-9]" id="screen"/></td>
+                <td colspan="4"><input type="text" pattern="[0-9]" id="screen" /></td>
             </tr>
             <tr>
                 <td><input type="button" value="7" onclick="escribir('7')"></td>
@@ -35,14 +37,16 @@
             <tr>
                 <td><input type="button" value="0" onclick="escribir('0')"></td>
                 <td><input type="button" value="." onclick="escribir('.')"></td>
-                <td><input type="button" value="C" onclick="borrar()" id="clear"></td>
                 <td><input type="button" value="+" onclick="escribir('+')"></td>
+                <td colspan="1"><input type="button" value="x" onclick="erase()" id="delete"></td>
             </tr>
             <tr>
-                <td colspan="4"><input type="button" value="=" onclick="calcular()"></td>
+                <td colspan="3"><input type="button" value="=" onclick="calcular()"></td>
+                <td><input type="button" value="C" onclick="borrar()" id="clear"></td>
             </tr>
         </tbody>
     </table>
 </body>
 <script src="script.js"></script>
+
 </html>

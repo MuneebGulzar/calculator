@@ -43,7 +43,7 @@ input[type="button"]{
     box-shadow: 0 3px 14px 7px #fff;
     border-radius: 1rem;
 }
-#clear{
+#clear, #delete{
     color: red;
 }
 
