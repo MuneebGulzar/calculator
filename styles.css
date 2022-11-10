@@ -49,10 +49,17 @@ input[type="button"] {
     border-radius: 1rem;
 }
 
+.eval input[type="button"]:hover{
+    background-color: #fff;
+    border: 0.3rem solid orange;
+}
+
 input[type="button"]:hover {
     /* box-shadow: 0 3px 14px 7px #fff; */
     border-left: none;
     border-top: none;
+    background-color: #fff;
+    color: #000;
 }
 
 #clear, #delete {
